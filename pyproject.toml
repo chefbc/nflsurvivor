@@ -8,6 +8,12 @@ authors = ["chefbc <chefbc@icloud.com>"]
 python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
 streamlit = "^1.12.2"
 supabase = "^0.5.8"
+sqlmodel = "^0.0.7"
+psycopg2-binary = "^2.9.3"
+SQLAlchemy = "^1.4.40"
+sqlalchemy-cockroachdb = "^1.4.3"
+streamlit-option-menu = "^0.3.2"
+streamlit-supabase-auth = "^1.0.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
